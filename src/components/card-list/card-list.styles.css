@@ -1,0 +1,30 @@
+.card-list{
+    width:85vw;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:20px;
+
+}
+.card-list{
+    margin-top:25px;
+}
+
+@media(max-width:760px){
+    .card-list{
+        display:block;
+    }
+}
+@media(min-width:765px){
+    .card-list{
+        width:85vw;
+        margin:0 auto;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:15px;
+    
+    }
+    .card-list{
+        margin-top:25px;
+    }
+}
